@@ -32,9 +32,9 @@ export const loginUser=(user)=> async dispatch=>{
  
     
         localStorage.removeItem('currentUser')
-        // localStorage.removeItem('cartItems')
+        localStorage.removeItem('cartItems')
  
-        // dispatch({type : 'USER_LOGOUT'})
+        dispatch({type : 'USER_LOGOUT'})
  
         window.location.href='/login'
  
