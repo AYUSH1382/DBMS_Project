@@ -20,7 +20,7 @@ export default function Cartscreen() {
 
             <div className="row justify-content-center p-2" data-aos='fade-up'>
                 <div className="col-md-6">
-                    <h2 style={{ fontSize: '40px', color: "white"  }}>My Cart</h2>
+                    <h2 style={{ fontSize: '40px', color: 'white'  }}>My Cart</h2>
 
                     {cartItems.map(item => {
                         return (<div className="flex-container">
